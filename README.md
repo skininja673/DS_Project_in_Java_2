@@ -1,2 +1,2 @@
-# DS_Project_in_Java_2
+# Data Structure in Java Project 2
 # System for Deterministic Modeling of CPU Scheduling Algorithms
