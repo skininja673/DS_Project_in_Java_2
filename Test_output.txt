@@ -1,0 +1,324 @@
+P1, arrivalTime=0, serviceTime=0, NEW
+P2, arrivalTime=0, serviceTime=0, NEW
+P3, arrivalTime=0, serviceTime=0, NEW
+P1, arrivalTime=0, serviceTime=0, READY
+P2, arrivalTime=0, serviceTime=0, READY
+P3, arrivalTime=0, serviceTime=0, READY
+P1, arrivalTime=0, serviceTime=0, RUNNING
+P1 acquired device 0
+P1, arrivalTime=0, serviceTime=0, WAITING
+P1, arrivalTime=4, serviceTime=0, READY
+P2, arrivalTime=0, serviceTime=4, RUNNING
+P2 waiting for device 0
+P2, arrivalTime=0, serviceTime=4, WAITING
+P2, arrivalTime=0, serviceTime=4, TERMINATED
+P3, arrivalTime=0, serviceTime=7, RUNNING
+P3 acquired device 1
+P3, arrivalTime=0, serviceTime=7, WAITING
+P3, arrivalTime=0, serviceTime=7, TERMINATED
+P1, arrivalTime=4, serviceTime=10, RUNNING
+P1 acquired device 0
+P1, arrivalTime=4, serviceTime=10, WAITING
+P1 acquired device 0
+P1, arrivalTime=4, serviceTime=10, WAITING
+P1 acquired device 0
+P1, arrivalTime=4, serviceTime=10, WAITING
+P1 acquired device 0
+P1, arrivalTime=4, serviceTime=10, WAITING
+P1 acquired device 0
+P1, arrivalTime=4, serviceTime=10, WAITING
+P1 acquired device 0
+P1, arrivalTime=4, serviceTime=10, WAITING
+P1 acquired device 0
+P1, arrivalTime=4, serviceTime=10, WAITING
+P1 acquired device 0
+P1, arrivalTime=4, serviceTime=10, WAITING
+P1 released device 0
+P1, arrivalTime=4, serviceTime=10, TERMINATED
+
+Results for RR:
+Avg waiting time: 5.666666666666667
+Avg turnaround time: 15.666666666666666
+P1, arrivalTime=0, serviceTime=0, NEW
+P2, arrivalTime=0, serviceTime=0, NEW
+P3, arrivalTime=0, serviceTime=0, NEW
+P1, arrivalTime=0, serviceTime=0, READY
+P2, arrivalTime=0, serviceTime=0, READY
+P3, arrivalTime=0, serviceTime=0, READY
+P1, arrivalTime=0, serviceTime=0, RUNNING
+P1 acquired device 0
+P1, arrivalTime=0, serviceTime=0, WAITING
+P1 acquired device 0
+P1, arrivalTime=0, serviceTime=0, WAITING
+P1 acquired device 0
+P1, arrivalTime=0, serviceTime=0, WAITING
+P1 acquired device 0
+P1, arrivalTime=0, serviceTime=0, WAITING
+P1 acquired device 0
+P1, arrivalTime=0, serviceTime=0, WAITING
+P1 acquired device 0
+P1, arrivalTime=0, serviceTime=0, WAITING
+P1 acquired device 0
+P1, arrivalTime=0, serviceTime=0, WAITING
+P1 acquired device 0
+P1, arrivalTime=0, serviceTime=0, WAITING
+P1 acquired device 0
+P1, arrivalTime=0, serviceTime=0, WAITING
+P1 released device 0
+P1, arrivalTime=0, serviceTime=0, TERMINATED
+P2, arrivalTime=0, serviceTime=24, RUNNING
+P2 acquired device 0
+P2, arrivalTime=0, serviceTime=24, WAITING
+P2, arrivalTime=0, serviceTime=24, TERMINATED
+P3, arrivalTime=0, serviceTime=27, RUNNING
+P3 released device 1
+P3 acquired device 1
+P3, arrivalTime=0, serviceTime=27, WAITING
+P3, arrivalTime=0, serviceTime=27, TERMINATED
+
+Results for FCFS:
+Avg waiting time: 17.0
+Avg turnaround time: 27.0
+P1, arrivalTime=0, serviceTime=0, NEW
+P2, arrivalTime=1, serviceTime=0, NEW
+P3, arrivalTime=2, serviceTime=0, NEW
+P4, arrivalTime=3, serviceTime=0, NEW
+P1, arrivalTime=0, serviceTime=0, READY
+P1, arrivalTime=0, serviceTime=0, RUNNING
+P1, arrivalTime=1, serviceTime=0, READY
+P2, arrivalTime=1, serviceTime=1, RUNNING
+P2 released device 0
+P2 acquired device 0
+P2, arrivalTime=1, serviceTime=1, WAITING
+P2 acquired device 0
+P2, arrivalTime=1, serviceTime=1, WAITING
+P2, arrivalTime=1, serviceTime=1, TERMINATED
+P4, arrivalTime=3, serviceTime=5, RUNNING
+P4 waiting for device 1
+P4, arrivalTime=3, serviceTime=5, WAITING
+P4 waiting for device 1
+P4, arrivalTime=3, serviceTime=5, WAITING
+P4, arrivalTime=3, serviceTime=5, TERMINATED
+P1, arrivalTime=1, serviceTime=10, RUNNING
+P1 waiting for device 0
+P1, arrivalTime=1, serviceTime=10, WAITING
+P1 waiting for device 0
+P1, arrivalTime=1, serviceTime=10, WAITING
+P1, arrivalTime=1, serviceTime=10, TERMINATED
+P3, arrivalTime=2, serviceTime=17, RUNNING
+P3 released device 1
+P3 acquired device 1
+P3, arrivalTime=2, serviceTime=17, WAITING
+P3 acquired device 1
+P3, arrivalTime=2, serviceTime=17, WAITING
+P3 acquired device 1
+P3, arrivalTime=2, serviceTime=17, WAITING
+P3 acquired device 1
+P3, arrivalTime=2, serviceTime=17, WAITING
+P3, arrivalTime=2, serviceTime=17, TERMINATED
+
+Results for SJF preemptive:
+Avg waiting time: 6.5
+Avg turnaround time: 13.0
+P1, arrivalTime=0, serviceTime=0, NEW
+P2, arrivalTime=1, serviceTime=0, NEW
+P3, arrivalTime=2, serviceTime=0, NEW
+P4, arrivalTime=3, serviceTime=0, NEW
+P1, arrivalTime=0, serviceTime=0, READY
+P1, arrivalTime=0, serviceTime=0, RUNNING
+P1 waiting for device 0
+P1, arrivalTime=0, serviceTime=0, WAITING
+P1 waiting for device 0
+P1, arrivalTime=0, serviceTime=0, WAITING
+P1, arrivalTime=0, serviceTime=0, TERMINATED
+P2, arrivalTime=1, serviceTime=8, RUNNING
+P2 released device 0
+P2 acquired device 0
+P2, arrivalTime=1, serviceTime=8, WAITING
+P2 acquired device 0
+P2, arrivalTime=1, serviceTime=8, WAITING
+P2, arrivalTime=1, serviceTime=8, TERMINATED
+P4, arrivalTime=3, serviceTime=12, RUNNING
+P4 waiting for device 1
+P4, arrivalTime=3, serviceTime=12, WAITING
+P4 waiting for device 1
+P4, arrivalTime=3, serviceTime=12, WAITING
+P4, arrivalTime=3, serviceTime=12, TERMINATED
+P3, arrivalTime=2, serviceTime=17, RUNNING
+P3 released device 1
+P3 acquired device 1
+P3, arrivalTime=2, serviceTime=17, WAITING
+P3 acquired device 1
+P3, arrivalTime=2, serviceTime=17, WAITING
+P3 acquired device 1
+P3, arrivalTime=2, serviceTime=17, WAITING
+P3 acquired device 1
+P3, arrivalTime=2, serviceTime=17, WAITING
+P3, arrivalTime=2, serviceTime=17, TERMINATED
+
+Results for SJF non-preemptive:
+Avg waiting time: 7.75
+Avg turnaround time: 14.25
+P1, arrivalTime=0, serviceTime=0, NEW
+P2, arrivalTime=0, serviceTime=0, NEW
+P3, arrivalTime=0, serviceTime=0, NEW
+P4, arrivalTime=0, serviceTime=0, NEW
+P5, arrivalTime=0, serviceTime=0, NEW
+P1, arrivalTime=0, serviceTime=0, READY
+P2, arrivalTime=0, serviceTime=0, READY
+P3, arrivalTime=0, serviceTime=0, READY
+P4, arrivalTime=0, serviceTime=0, READY
+P5, arrivalTime=0, serviceTime=0, READY
+P2, arrivalTime=0, serviceTime=0, RUNNING
+P2, arrivalTime=0, serviceTime=0, TERMINATED
+P5, arrivalTime=0, serviceTime=1, RUNNING
+P5 waiting for device 0
+P5, arrivalTime=0, serviceTime=1, WAITING
+P5 waiting for device 0
+P5, arrivalTime=0, serviceTime=1, WAITING
+P5 waiting for device 0
+P5, arrivalTime=0, serviceTime=1, WAITING
+P5, arrivalTime=0, serviceTime=1, TERMINATED
+P1, arrivalTime=0, serviceTime=6, RUNNING
+P1 waiting for device 0
+P1, arrivalTime=0, serviceTime=6, WAITING
+P1 waiting for device 0
+P1, arrivalTime=0, serviceTime=6, WAITING
+P1, arrivalTime=0, serviceTime=6, TERMINATED
+P3, arrivalTime=0, serviceTime=16, RUNNING
+P3, arrivalTime=0, serviceTime=16, TERMINATED
+P4, arrivalTime=0, serviceTime=18, RUNNING
+P4, arrivalTime=0, serviceTime=18, TERMINATED
+
+Results for Priority preemptive:
+Avg waiting time: 8.2
+Avg turnaround time: 12.0
+P1, arrivalTime=0, serviceTime=0, NEW
+P2, arrivalTime=0, serviceTime=0, NEW
+P3, arrivalTime=0, serviceTime=0, NEW
+P4, arrivalTime=0, serviceTime=0, NEW
+P5, arrivalTime=0, serviceTime=0, NEW
+P1, arrivalTime=0, serviceTime=0, READY
+P2, arrivalTime=0, serviceTime=0, READY
+P3, arrivalTime=0, serviceTime=0, READY
+P4, arrivalTime=0, serviceTime=0, READY
+P5, arrivalTime=0, serviceTime=0, READY
+P2, arrivalTime=0, serviceTime=0, RUNNING
+P2, arrivalTime=0, serviceTime=0, TERMINATED
+P5, arrivalTime=0, serviceTime=1, RUNNING
+P5 waiting for device 0
+P5, arrivalTime=0, serviceTime=1, WAITING
+P5 waiting for device 0
+P5, arrivalTime=0, serviceTime=1, WAITING
+P5 waiting for device 0
+P5, arrivalTime=0, serviceTime=1, WAITING
+P5, arrivalTime=0, serviceTime=1, TERMINATED
+P1, arrivalTime=0, serviceTime=6, RUNNING
+P1 waiting for device 0
+P1, arrivalTime=0, serviceTime=6, WAITING
+P1 waiting for device 0
+P1, arrivalTime=0, serviceTime=6, WAITING
+P1, arrivalTime=0, serviceTime=6, TERMINATED
+P3, arrivalTime=0, serviceTime=16, RUNNING
+P3, arrivalTime=0, serviceTime=16, TERMINATED
+P4, arrivalTime=0, serviceTime=18, RUNNING
+P4, arrivalTime=0, serviceTime=18, TERMINATED
+
+Results for Priority non-preemptive:
+Avg waiting time: 8.2
+Avg turnaround time: 12.0
+P1, arrivalTime=0, serviceTime=0, NEW
+P2, arrivalTime=0, serviceTime=0, NEW
+P3, arrivalTime=10, serviceTime=0, NEW
+P1, arrivalTime=0, serviceTime=0, READY
+P2, arrivalTime=0, serviceTime=0, READY
+P1, arrivalTime=0, serviceTime=0, RUNNING
+P1, arrivalTime=3, serviceTime=0, READY
+P2, arrivalTime=0, serviceTime=3, RUNNING
+P2, arrivalTime=6, serviceTime=3, READY
+P1, arrivalTime=3, serviceTime=6, RUNNING
+P1 waiting for device 0
+P1, arrivalTime=3, serviceTime=6, WAITING
+P1 waiting for device 0
+P1, arrivalTime=3, serviceTime=6, WAITING
+P1, arrivalTime=9, serviceTime=6, READY
+P2, arrivalTime=6, serviceTime=9, RUNNING
+P2, arrivalTime=12, serviceTime=9, READY
+P1, arrivalTime=9, serviceTime=12, RUNNING
+P1, arrivalTime=15, serviceTime=12, READY
+P3, arrivalTime=10, serviceTime=15, RUNNING
+P3, arrivalTime=18, serviceTime=15, READY
+P2, arrivalTime=12, serviceTime=18, RUNNING
+P2, arrivalTime=21, serviceTime=18, READY
+P1, arrivalTime=15, serviceTime=21, RUNNING
+P1, arrivalTime=15, serviceTime=21, TERMINATED
+P3, arrivalTime=18, serviceTime=22, RUNNING
+P3, arrivalTime=25, serviceTime=22, READY
+P2, arrivalTime=21, serviceTime=25, RUNNING
+P2, arrivalTime=21, serviceTime=25, TERMINATED
+P3, arrivalTime=25, serviceTime=27, RUNNING
+P3, arrivalTime=25, serviceTime=27, TERMINATED
+P4, arrivalTime=0, serviceTime=0, NEW
+P5, arrivalTime=0, serviceTime=0, NEW
+P4, arrivalTime=0, serviceTime=0, READY
+P5, arrivalTime=0, serviceTime=0, READY
+P4, arrivalTime=0, serviceTime=0, RUNNING
+P4, arrivalTime=0, serviceTime=0, TERMINATED
+P5, arrivalTime=0, serviceTime=11, RUNNING
+P5 waiting for device 0
+P5, arrivalTime=0, serviceTime=11, WAITING
+P5 waiting for device 0
+P5, arrivalTime=0, serviceTime=11, WAITING
+P5 waiting for device 0
+P5, arrivalTime=0, serviceTime=11, WAITING
+P5, arrivalTime=0, serviceTime=11, TERMINATED
+
+Results for MultilevelQueue:
+Avg waiting time: 4.75
+Avg turnaround time: 16.833333333333336
+P1, arrivalTime=0, serviceTime=0, NEW
+P2, arrivalTime=0, serviceTime=0, NEW
+P4, arrivalTime=0, serviceTime=0, NEW
+P5, arrivalTime=0, serviceTime=0, NEW
+P3, arrivalTime=10, serviceTime=0, NEW
+P1, arrivalTime=0, serviceTime=0, READY
+P2, arrivalTime=0, serviceTime=0, READY
+P4, arrivalTime=0, serviceTime=0, READY
+P5, arrivalTime=0, serviceTime=0, READY
+P1, arrivalTime=0, serviceTime=0, RUNNING
+P1 waiting for device 0
+P1, arrivalTime=0, serviceTime=0, WAITING
+P1 waiting for device 0
+P1, arrivalTime=0, serviceTime=0, WAITING
+P1, arrivalTime=8, serviceTime=0, READY
+P2, arrivalTime=0, serviceTime=8, RUNNING
+P2, arrivalTime=16, serviceTime=8, READY
+P4, arrivalTime=0, serviceTime=16, RUNNING
+P4, arrivalTime=24, serviceTime=16, READY
+P5, arrivalTime=0, serviceTime=24, RUNNING
+P5 waiting for device 0
+P5, arrivalTime=0, serviceTime=24, WAITING
+P5 waiting for device 0
+P5, arrivalTime=0, serviceTime=24, WAITING
+P5 waiting for device 0
+P5, arrivalTime=0, serviceTime=24, WAITING
+P5, arrivalTime=32, serviceTime=24, READY
+P5, arrivalTime=32, serviceTime=24, TERMINATED
+P3, arrivalTime=10, serviceTime=32, RUNNING
+P3, arrivalTime=10, serviceTime=32, TERMINATED
+P1, arrivalTime=8, serviceTime=0, READY
+P2, arrivalTime=16, serviceTime=8, READY
+P4, arrivalTime=24, serviceTime=16, READY
+P1, arrivalTime=8, serviceTime=0, READY
+P2, arrivalTime=16, serviceTime=8, READY
+P4, arrivalTime=24, serviceTime=16, READY
+P1, arrivalTime=8, serviceTime=24, RUNNING
+P1, arrivalTime=8, serviceTime=24, TERMINATED
+P2, arrivalTime=16, serviceTime=26, RUNNING
+P2, arrivalTime=16, serviceTime=26, TERMINATED
+P4, arrivalTime=24, serviceTime=29, RUNNING
+P4, arrivalTime=24, serviceTime=29, TERMINATED
+
+Results for MultilevelFeedbackQueue:
+Avg waiting time: 5.777777777777779
+Avg turnaround time: 14.5
