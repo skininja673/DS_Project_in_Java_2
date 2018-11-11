@@ -1,2 +1,2 @@
 # Data Structure in Java Project 2
-# System for Deterministic Modeling of CPU Scheduling Algorithms
+This is a university project titled "System for Deterministic Modeling of CPU Scheduling Algorithms" developed by group of two.
